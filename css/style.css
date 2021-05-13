@@ -5,14 +5,24 @@
   margin: 0;
 }
 
+html {
+  height: 100%;
+}
+
 body {
+  height: 100%;
   font-family: 'Fira Sans';
   color: #172B4D;
 }
 
+div.container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 div.content {
-  max-width: 640px;
-  margin: 0 auto;
   text-align: center;
   padding: 2rem;
 }
