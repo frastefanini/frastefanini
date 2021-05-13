@@ -1,4 +1,11 @@
-body {
-  margin: 0;
+@import "fonts.css";
+
+* {
   padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Fira Sans';
+  color: #172B4D;
 }
