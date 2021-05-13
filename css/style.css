@@ -9,3 +9,39 @@ body {
   font-family: 'Fira Sans';
   color: #172B4D;
 }
+
+div.content {
+  max-width: 640px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 2rem;
+}
+
+img.profile-pic {
+  border: 0.125rem solid #172B4D;
+  border-radius: 9999px;
+  width: 10rem;
+  height: 10rem;
+  object-fit: cover;
+  object-position: top;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+}
+
+h1 strong {
+  font-weight: 500;
+  color: #0052CC;
+}
+
+h3 {
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+
+a {
+  color: #0052CC;
+}
